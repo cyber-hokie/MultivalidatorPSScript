@@ -7,7 +7,7 @@ This script currently supports creating a single validator instance in Docker va
 ## ----WARNING----
 This script is highly experimental and a work-in-progress without full considerations for security. It unlocks your account in Geth while utilizing RPC on the localhost which places you at risk. Additionally, passwords entered, while stored as securestrings, may be accessible in memory while the Powershell instance open. ***USE AT YOUR OWN RISK***. The author may not be held liable for its use or misue. This script has ONLY been tested using Prysm-Validator and the Goerli testnet. While it is technically network independent (transactions and deposit data will be sent from whatever network your Geth node is connected to with a valid account), it should be carefully reviewed before using it for anything else.
 
-## Pre-requisites and Assumptions
+## Prerequisites and Assumptions
 1. The latest version of Docker Desktop installed and running.
 2. The latest version of Geth installed and synced (fast sync is fine).
 3. Powershell v4, and local administrator rights (or the ability to escalate privileges via run-as for powershell).
