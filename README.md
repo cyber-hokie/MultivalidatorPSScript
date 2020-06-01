@@ -2,7 +2,7 @@
 ## Overview
 This is a semi-simple Powershell script to generate a multiaddress validator runtime in Docker providing attestations for 'n' addresses
 
-This script currently supports creating a single validator instance in Docker validating for multiple addresses whose keypairs are stored and referenced in the same bind mounted data-dir on the host (c:\prysm\$validatorname\[keyfiles] by default). 
+This script currently supports creating a single validator instance in Docker validating for multiple addresses whose keypairs are stored and referenced in the same bind mounted data-dir on the host (c:\prysm\\$validatorname\\[keyfiles] by default). 
 
 ## ----WARNING----
 This script is highly experimental and a work-in-progress without full considerations for security. It unlocks your account in Geth while utilizing RPC on the localhost which places you at risk. Additionally, passwords entered, while stored as securestrings, may be accessible in memory while the Powershell instance open. ***USE AT YOUR OWN RISK***. The author may not be held liable for its use or misue. This script has ONLY been tested using Prysm-Validator and the Goerli testnet. While it is technically network independent (transactions and deposit data will be sent from whatever network your Geth node is connected to with a valid account), it should be carefully reviewed before using it for anything else.
