@@ -18,4 +18,4 @@ This script is highly experimental and a work-in-progress without full considera
 ## Details
 See code comments for additional details.
 
-[![script_vid.gif](https://s7.gifyu.com/images/script_vid.gif)](https://gifyu.com/image/nBFr)
+![Demo Gif](https://s7.gifyu.com/images/script_vid.gif)
